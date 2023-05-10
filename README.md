@@ -1,0 +1,1 @@
+This is small project of library. In django we have our backend REST. You can use initilize.py script to add some data to database. The front end is the same as in my other library project. Backend should be hosted on port 8000, frontend on port 5050
