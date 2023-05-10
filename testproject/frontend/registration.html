@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Library</title>
+</head>
+<header class="text-center my-4">
+    <h1>Registration</h1>
+</header>
+<body class="body">
+  <div class="loginForm">
+    <form>
+        <div class="mb-3">
+          <label  class="form-label">Username</label>
+          <input  class="form-control" id="inputUsername" >
+        </div>
+        <div class="mb-3">
+          <label  class="form-label">Password</label>
+          <input type="password"  class="form-control" id="inputPassword">
+        </div>
+        <div class="mb-3">
+          <label  class="form-label">Repeat Password</label>
+          <input type="password"  class="form-control" id="repeatPassword">
+        </div>
+        <div id="error-msg"></div>
+        <div id="buttons">
+        <button type="submit" class="btn btn-primary" id="register-button">Register</button>
+        </div>
+        
+      </form>
+</div>
+    <script src="request.js"></script>
+    <script src="registration.js"></script>
+    
+</body>
+</html>

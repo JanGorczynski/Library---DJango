@@ -1,0 +1,61 @@
+.container{
+    max-width: 1000px;
+  }
+
+  .books_ontime{
+    background: #4fe57a;
+  }
+
+  .books_available{
+    background: rgb(216, 216, 113);
+  }
+  .button_right{
+    float: right;
+}
+
+.books_overstayed{
+    background: #e60808;
+}
+
+.register{
+    position:relative;
+    top:60%; 
+}
+
+.center {
+    height:100px; 
+    width:200px; 
+    margin: 10px -50px; 
+    position:relative;
+    top:0%; 
+    left:45%;
+}
+.loginForm{
+    height:50px; 
+    width:400px; 
+    margin: 150px -50px; 
+    position:relative;
+    top:0%; 
+    left:42%;
+    
+}
+.bottom_text{
+    margin: 30px -50px; 
+}
+
+.body{
+    background: #b9bb9ddd;
+}
+
+.goBack{
+    margin: 30px ;
+}
+    
+.search{
+    width:800px;
+    margin: 0px 100px;
+}
+
+.lower{
+    margin: 50;
+}
